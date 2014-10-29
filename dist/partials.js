@@ -96,7 +96,7 @@ function program1(depth0,data) {
   if (helper = helpers.subtitle) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.subtitle); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "</h3>\n</section>\n\n\n<section>\n	<img class=\"constrain-width\" src=\""
+    + "</h3>\n	<a href=\"https://rawgit.com/uniqname/componentized-architecture-presentation/master/dist/index.html#/\"><img src=\"http://qrfree.kaywa.com/?l=1&s=8&d=https%3A%2F%2Frawgit.com%2Funiqname%2Fcomponentized-architecture-presentation%2Fmaster%2Fdist%2Findex.html%23%2F\" alt=\"QRCode\"/></a>\n</section>\n\n\n<section>\n	<img class=\"constrain-width\" src=\""
     + escapeExpression(((stack1 = ((stack1 = (depth0 && depth0.githubData)),stack1 == null || stack1 === false ? stack1 : stack1.avatar_url)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
     + "\" alt=\""
     + escapeExpression(((stack1 = ((stack1 = (depth0 && depth0.githubData)),stack1 == null || stack1 === false ? stack1 : stack1.name)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
